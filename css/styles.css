@@ -131,6 +131,7 @@ img {
 .header-link:focus {
   color: var(--accent-color);
 }
+
 .icon-envelope::before {
   content: "";
   display: inline-block;
@@ -352,7 +353,6 @@ img {
 .team-social-links {
   height: 44px;
   width: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -536,13 +536,11 @@ img {
 }
 .footer-main-info {
   width: 230px;
-  outline: 1px solid yellow;
 }
 .footer-social {
   margin-left: 70px;
   padding-top: 12px;
   padding-bottom: 40px;
-  outline: 1px solid yellow;
 }
 
 .footer-social-links {
@@ -569,4 +567,8 @@ img {
 }
 .footer-social-links:nth-child(n + 2) {
   margin-left: 10px;
+}
+
+.footer-social-links:hover {
+  background-color: var(--accent-color);
 }

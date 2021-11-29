@@ -132,24 +132,6 @@ img {
   color: var(--accent-color);
 }
 
-.icon-envelope::before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-image: url(../images/icon-envelope.svg);
-  background-size: contain;
-}
-.icon-smartphone::before {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  background-image: url(../images/icon-smartphone.svg);
-  background-size: contain;
-}
 .header-contacts {
   color: var(--secondary-text-color);
   text-decoration: none;

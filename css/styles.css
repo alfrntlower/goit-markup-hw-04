@@ -384,14 +384,15 @@ img {
 .regular-customers .item + .item {
   margin-left: 30px;
 }
-.icon-client-1{
+.icon-client-1 {
   width: 170px;
+  height: 92px;
   outline: 1px solid green;
-  fill:var(--secondary-text-color);
+  fill: var(--secondary-text-color);
 }
-.client-1{
+.client-1 {
   outline: 1px solid green;
-  fill:var(--secondary-text-color);
+  fill: var(--secondary-text-color);
 }
 
 /* Portfolio page*/
@@ -547,23 +548,20 @@ img {
 .footer-list-icon {
   display: flex;
 }
-.footer-social-links:nth-child(n+2){
+.footer-social-links:nth-child(n + 2) {
   margin-left: 10px;
 }
 .footer-social-links {
-  width: 44px;
-  height: 44px;
-
   color: white;
-  display: block;
   border-radius: 50%;
-  background-color: red;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .icon-instagram {
-outline: 1px solid yellow;
+  width: 44px;
+  height: 44px;
+  outline: 1px solid yellow;
   fill: var(--white-color);
 }
 .footer-social-links:hover {
-  color: var(--white-color;
   background-color: var(--accent-color);
 }

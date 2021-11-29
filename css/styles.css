@@ -387,6 +387,11 @@ img {
 .icon-client-1{
   width: 170px;
   outline: 1px solid green;
+  fill:var(--secondary-text-color);
+}
+.client-1{
+  outline: 1px solid green;
+  fill:var(--secondary-text-color);
 }
 
 /* Portfolio page*/

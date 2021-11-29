@@ -140,6 +140,15 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
+.icon-envelope,
+.icon-smartphone {
+  width: 16px;
+  height: 12px;
+  fill: black;
+  outline: 1px solid red;
+}
+
 .header-contacts:hover,
 .header-contacts:focus {
   color: var(--accent-color);
@@ -375,6 +384,10 @@ img {
 .regular-customers .item + .item {
   margin-left: 30px;
 }
+.icon-client-1{
+  width: 170px;
+  outline: 1px solid green;
+}
 
 /* Portfolio page*/
 
@@ -523,34 +536,29 @@ img {
   margin-left: 70px;
   padding-top: 12px;
   padding-bottom: 40px;
+  outline: 1px solid green;
 }
 
-.footer-social-links {
-  display: inline-block;
-  height: 44px;
-  width: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
+.footer-list-icon {
+  display: flex;
 }
-.footer-icon-instagram {
-  background-image: url(../images/footer-instagram.svg);
-}
-.footer-icon-twitter {
-  background-image: url(../images/footer-twitter.svg);
-}
-.footer-icon-facebook {
-  background-image: url(../images/footer-facebook.svg);
-}
-.footer-icon-linkedin {
-  background-image: url(../images/footer-linkedin.svg);
-}
-.footer-social-links:nth-child(n + 2) {
+.footer-social-links:nth-child(n+2){
   margin-left: 10px;
 }
+.footer-social-links {
+  width: 44px;
+  height: 44px;
 
+  color: white;
+  display: block;
+  border-radius: 50%;
+  background-color: red;
+}
+.icon-instagram {
+outline: 1px solid yellow;
+  fill: var(--white-color);
+}
 .footer-social-links:hover {
+  color: var(--white-color;
   background-color: var(--accent-color);
 }
